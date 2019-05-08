@@ -165,7 +165,7 @@ void loop(void)
 
           // Divide the flow rate in litres/minute by 60 to determine how many litres have
           // passed through the sensor in this 1 second interval, then multiply by 1000 to
-          // convert to millilitres.
+          // convert to millilitres.Made a change. And another change
           flowMilliLitres = (flowRate / 60) * 1000;
 
           // Add the millilitres passed in this second to the cumulative total
